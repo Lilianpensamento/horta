@@ -22,3 +22,29 @@ footer a {
 footer a:hover {
   color: var(--cor-destaque);
 }
+
+
+.menu-acessibilidade{
+    position: fixed; /*fixa na tela o botao */
+    top:2rem;
+    right:20px;
+    z-index: 1000; /*Garante que o menu fique sobre os outros elementos.*/
+}
+
+.rotacao-botao{
+    transform: rotate(-90deg);
+    transform-origin: right center;
+}
+
+.opcoes-acessibilidade{
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.opcoes-acessibilidade button{
+    margin-bottom: 5px;
+}
+.apresenta-lista{
+    display: none;
+}
