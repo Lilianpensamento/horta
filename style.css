@@ -8,10 +8,6 @@ body {
     font-family: "Arial", sans-serif;
   }
 
-  .a{
-    background-color: blue;
-}
-
   h1,
 h2,
 h5 {
@@ -51,4 +47,8 @@ footer a:hover {
 }
 .apresenta-lista{
     display: none;
+}
+
+.a{
+    background-color: rgb(209, 209, 237);
 }
